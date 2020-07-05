@@ -13,6 +13,8 @@
 		F433B7E124B1828900D600AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F433B7DF24B1828900D600AF /* Main.storyboard */; };
 		F433B7E324B1828A00D600AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F433B7E224B1828A00D600AF /* Assets.xcassets */; };
 		F433B7E624B1828A00D600AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F433B7E424B1828A00D600AF /* LaunchScreen.storyboard */; };
+		F433B7EF24B1852000D600AF /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = F433B7ED24B1851F00D600AF /* lamp_off.png */; };
+		F433B7F024B1852000D600AF /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = F433B7EE24B1851F00D600AF /* lamp_on.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F433B7E224B1828A00D600AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F433B7E524B1828A00D600AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F433B7E724B1828A00D600AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F433B7ED24B1851F00D600AF /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		F433B7EE24B1851F00D600AF /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		F433B7D824B1828900D600AF /* imageView */ = {
 			isa = PBXGroup;
 			children = (
+				F433B7ED24B1851F00D600AF /* lamp_off.png */,
+				F433B7EE24B1851F00D600AF /* lamp_on.png */,
 				F433B7D924B1828900D600AF /* AppDelegate.swift */,
 				F433B7DB24B1828900D600AF /* SceneDelegate.swift */,
 				F433B7DD24B1828900D600AF /* ViewController.swift */,
@@ -127,7 +133,9 @@
 			files = (
 				F433B7E624B1828A00D600AF /* LaunchScreen.storyboard in Resources */,
 				F433B7E324B1828A00D600AF /* Assets.xcassets in Resources */,
+				F433B7F024B1852000D600AF /* lamp_on.png in Resources */,
 				F433B7E124B1828900D600AF /* Main.storyboard in Resources */,
+				F433B7EF24B1852000D600AF /* lamp_off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WKTPBK9LR7;
 				INFOPLIST_FILE = imageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WKTPBK9LR7;
 				INFOPLIST_FILE = imageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
